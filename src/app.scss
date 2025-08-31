@@ -1,0 +1,44 @@
+:root {
+	--col-bg-black: #333;
+}
+
+body {
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.app {
+	background-color: var(--col-bg-black);
+	min-height: 100vh;
+	min-width: 100vw;
+	// overflow: hidden;
+	box-sizing: border-box;
+}
+
+.page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	min-width: 100vw;
+	min-height: 100vh;
+	margin: auto;
+	padding: 0;
+	padding: 2rem;
+	// overflow: auto;
+}
+.widget {
+	height: 10rem;
+	width: 16rem;
+	margin: 0;
+	padding: 0;
+	border-width: 0.25rem;
+	box-sizing: border-box;
+}
