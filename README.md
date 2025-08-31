@@ -1,4 +1,9 @@
-# sv
+# widget-dashboad
+
+## Clock + Weather
+
+[Screencast_20250831_094818.webm](https://github.com/user-attachments/assets/455fe4ef-2cc1-4706-91ca-187874ee80bc)
+
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
